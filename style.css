@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color: rgb(247,248,252);
+}
+
+#header_box{
+    height:64px;
+    width:100%;
+    /* border:1px solid black; */
+}
+
+#main{
+    height:calc(100% - 64px);
+    width:100%;
+    display:flex;
+    /* border:1px solid black; */
+    
+}
+
+#leftmain{
+    height:auto;
+    width:600px;
+    /* border:1px solid black; */
+}
+
+#middle_contentmain{
+    height:calc(100% - 16px);
+    width:100%;
+    border:1px solid black;
+    border-radius: 16px;
+    background-color: rgb(255,255,255);
+}
+#rightmain{
+    height:auto;
+    width:500px;
+    /* border: 1px solid black; */
+}
+#fizz_buzz_line{
+    height:100px;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+
+}
+
+#box1{
+    height:100px;
+    /* width:380px; */
+    width:100%;
+    /* border:1px solid black; */
+}
+#box2{
+    height:100px;
+    width:520px;
+    /* border:1px solid black; */
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+#box3{
+    height:100px;
+    /* width:380px; */
+    width:100%;
+    /* border:1px solid black; */
+}
+
+
+/* input function div */
+#enter_the_num_for_fizz_and_buzz{
+    height:120px;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+}
+/* 2nd line inputtext  main  box */
+#box1_label{
+    height:120px;
+    /* width:400px; */
+    width:100%;
+    /* border:1px solid black; */
+    /* font-size: 50px; */
+    display: flex;
+    /* align-items:  center; */
+    /* justify-content: end; */
+}
+
+#empty_box_beside_text{
+    height:120px;
+    /* width:150px; */
+    width:100%;
+    /* border:1px solid black; */
+
+}
+
+#text_label{
+    height:120px;
+    width:500px;
+    /* border:1px solid black; */
+    font-size:40px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2nd line input main box */
+#box2_label_number1{
+    height:120px;
+    width:100%;
+    /* width:700px; */
+    /* border:1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#empty_div_beside_input{
+   height:120px;
+   width:100px;
+   display:flex;
+}
+#input_number{
+    height:50px;
+    width:300px;
+    border-radius: 9px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    padding:0 0 0 70px;
+
+
+}
+
+#div_after_the_input{
+    height:120px;
+    width:240px;
+    /* border: 1px solid black; */
+}
+#Selection_main_div{
+    height:120px;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+
+}
+#box1_empty_before_selection{
+    height:auto;
+    width:100%;
+    /* border:1px solid black; */
+    
+}
+#box2_slection_main_box{
+    height: auto;
+    /* width:300px; */
+    width:520px;
+    /* border:1px solid black; */
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+#box3_empty_after_selection{
+    height:auto;
+    width:100%;
+    /* border:1px solid black; */
+
+}
+
+#selection_a_fizz_or_buzz{
+    height:60px;
+    width:220px;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 0 0 57px;
+    border-radius: 9px;
+    
+}
+
+/* submit section */
+#submit_session{
+    height:160px;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+}
+
+#div_box_before_submit{
+    height:auto;
+    width:100%;
+    /* border:1px solid black; */
+}
+
+#submit{
+    height:auto;
+    width:600px;
+    /* border:1px solid black; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+
+}
+#submit_input{
+    height:40px;
+    width:300px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#div_box_after_submit{
+    height:auto;
+    width:100%;
+    /* border:1px solid black */
+}
+
+/* thank you */
+
+#thank_you{
+    height:180px;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+}
+#space_before_thank_you{
+    height:auto;
+    width:70%;
+}
+
+#thank_you_content{
+    height:180px;
+    width:500px;
+    /* border:1px solid black; */
+    
+}
+ #text_content{
+    height:90px;
+    width:500px;
+    /* border: 1px solid black;  */
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+} 
+#thank_you_text{
+    height:90px;
+    width:500px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#space_after_thank_you{
+    height:auto;
+    width:70%;
+    /* border:1px solid black; */
+}
